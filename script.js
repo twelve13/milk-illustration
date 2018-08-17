@@ -3,8 +3,8 @@ const button = document.getElementById("button-container");
 const blade = document.getElementById("blade");
 
 function show(){
-	button.remove();
-	setTimeout(function(){blade.play()}, 25700);
+	button.style.display = "none";
+	// setTimeout(function(){blade.play()}, 25700);
 	for(let i=0; i<divs.length; i++){
 		setTimeout(function(){divs[i].classList.add("showme")}, i*200);
 	}
