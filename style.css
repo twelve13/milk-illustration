@@ -19,7 +19,7 @@ main * {
     box-shadow:  inset 0 0 10px rgba(64,145,148,0.5);
     height: 70px;
     left: 74px;
-    top: 85px;
+    top: 55px;
     width: 520px;
 }
 #arrow {
@@ -69,7 +69,7 @@ main * {
     border-right: solid 2px #adadad;
     height: 212px;
     left: 42px;
-    top: 158px;
+    top: 128px;
     transform: skewX(-17deg);
     width: 520px;
 }
@@ -79,8 +79,8 @@ main * {
     border-right: solid transparent 105px;
     height: 0px;
     left: 530px;
-    top: 203px;
-    transform: skewY(-35deg);
+    top: 172px;
+    transform: skewY(-34deg);
     width: 0px;
 }
 #double-arrow-a {
@@ -123,7 +123,7 @@ main * {
     border-right: solid transparent 90px;
     height: 0px;
     left: 533px;
-    top: 172px;
+    top: 142px;
     transform: rotate(263deg) skewY(-30deg);
     width: 0px;
 }
@@ -132,7 +132,7 @@ main * {
     border-top: solid 2px #adadad;
     height: 430px;
     left: 10px;
-    top: 370px;
+    top: 340px;
     width: 520px;
     z-index: -2;
 }
@@ -142,7 +142,7 @@ main * {
     border-top: solid 2px #adadad;
     height: 430px;
     left: 530px;
-    top: 319px;
+    top: 289px;
     transform: skewY(-34deg);
     width: 150px;
 }
@@ -555,7 +555,7 @@ main * {
     border-left: solid #374b58 110px;
     border-right: solid transparent 85px;
     height: 0px;
-    left: -21.5px;
+    left: -20px;
     top: 173px;
     transform: rotate(180deg) skewX(10deg);
     width: 0px;
@@ -577,10 +577,10 @@ main * {
     border-bottom: solid 2px #374b58;
     border-radius: 50% 10% 50% 50%;
     height: 15px;
-    left: 80px;
+    left: 79px;
     top: 297px;
-    transform: rotate(4deg);
-    width: 104px;
+    transform: rotate(2deg);
+    width: 105px;
     z-index: -4;
 }
 #w-hair {
@@ -1065,18 +1065,12 @@ main * {
     transform: rotate(15deg);
     width: 16px;
 }
-#caption-shadow {
-    font-family: 'alfa slab one', cursive;
-    font-size: 24px;
-    left: 253px;
-    top: 341px;
-    transform: rotate(-8deg);
-}
 #caption {
     color: #fff8e5;
     font-family: 'alfa slab one', cursive;
     font-size: 24px;
     left: 250px;
+    text-shadow: 3px 3px black;
     top: 338px;
     transform: rotate(-8deg);
 }
