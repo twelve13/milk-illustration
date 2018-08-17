@@ -6,6 +6,7 @@
             <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div id="button-container"><div id="button"><div id="play"></div></div></div>
         <main>
             <div id="carton-top-top">
                 <div id="arrow"></div>
@@ -108,6 +109,17 @@
                 <div id="wonder-woman">
                     <div class="neck"></div>
                     <div class="torso"></div>
+                    <div id="corset-body">
+                        <div id="corset-left-top"></div>
+                        <div id="corset-left-middle"></div>
+                        <div id="corset-left-bottom"></div>
+                        <div id="corset-right-top"></div>
+                        <div id="corset-right-middle"></div>
+                        <div id="corset-right-bottom"></div>
+                        <div id="corset-d-outline">D</div>
+                        <div id="corset-d">D</div>
+                        <div id="corset-belt"></div>
+                    </div>
                     <div class="arm-right"></div>
                     <div class="hand-right">
                         <div class="fingers">
@@ -124,18 +136,6 @@
                     <div class="hand-left-bottom"></div>
                     <div id="cuff-left"></div>
                     <div id="cuff-right"></div>
-                    <div id="halo"></div>
-                    <div id="corset-body">
-                        <div id="corset-left-top"></div>
-                        <div id="corset-left-middle"></div>
-                        <div id="corset-left-bottom"></div>
-                        <div id="corset-right-top"></div>
-                        <div id="corset-right-middle"></div>
-                        <div id="corset-right-bottom"></div>
-                        <div id="corset-d-outline">D</div>
-                        <div id="corset-d">D</div>
-                        <div id="corset-belt"></div>
-                    </div>
                     <div class="shorts-right">* * * *</div>
                     <div class="shorts-left">* * * *</div>
                     <div class="shorts-front">*</div>
@@ -154,12 +154,14 @@
                     <div class="boot-right-top-outline"></div>
                     <div class="boot-right-top"></div>
                     <div class="boot-right-bottom"></div>
-                </div>                                                  
+                </div>
+                <div id="halo"></div>                                                  
             </div>
             <div id="caption">DANBARI WILL <br />SAVE THE WORLD!</div>
         </div>
         <div id="carton-body-side">
             <div id="one-percent">MILK 1%</div>
+            <div>
             <table>
                 <tr>
                     <th colspan="3">Nutrition Facts</th>
@@ -209,6 +211,7 @@
                     <td>14%</td>
                 </tr>
             </table>
+            </div>
             <div id="barcode">
                 <div id="bars">
                     <div></div>
@@ -246,6 +249,7 @@
             </div>
         </div>
     </main>
+    <audio id="blade" src="explosion.wav"></audio>
     <script src="script.js"></script>
 </body>
 </html>
