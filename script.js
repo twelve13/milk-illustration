@@ -4,9 +4,11 @@ const blade = document.getElementById("blade");
 
 function show(){
 	button.style.display = "none";
-	// setTimeout(function(){blade.play()}, 25700);
+	//setTimeout(function(){blade.play()}, 25700);
 	for(let i=0; i<divs.length; i++){
-		setTimeout(function(){divs[i].classList.add("showme")}, i*200);
+		(function(i){
+			setTimeout(function(){divs[i].classList.add("showme")}, i*200);
+		})(i);
 	}
 	
 }
